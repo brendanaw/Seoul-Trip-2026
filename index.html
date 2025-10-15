@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seoul 8D7N Itinerary — April 2026</title>
+    <meta
+      name="description"
+      content="Detailed mobile itinerary for a family trip to Seoul: views, K-culture, food, DMZ. Optimized by area with timing and transport."
+    />
+    <meta property="og:title" content="Seoul Family Trip — April 2026" />
+    <meta
+      property="og:description"
+      content="8D7N with DMZ, Noryangjin, Lotte Tower, Han River cruise. Complete with timing and photos."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://upload.wikimedia.org/wikipedia/commons/0/0f/N_Seoul_Tower_Panorama_001.jpg"
+    />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="900" />
+    <meta name="theme-color" content="#0b0b0c" />
+    <style>
+      :root {
+        --bg: #0b0b0c;
+        --card: #14161a;
+        --ink: #f2f5f9;
+        --muted: #a7b2c2;
+        --line: #24272c;
+        --pill: #0d2c3a;
+        --pilltext: #c7ecff;
+        --warning: #4a2c0d;
+        --warningtext: #ffd5a8;
+        --green: #0d3a1f;
+        --greentext: #b8f0cd;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .hero {
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .hero img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        filter: brightness(0.88) contrast(1.08);
+      }
+      .hero-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 24px 16px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+      }
+      .hero h1 {
+        margin: 0 0 8px 0;
+        font-size: 32px;
+        line-height: 1.1;
+        font-weight: 700;
+      }
+      .hero p {
+        margin: 0;
+        font-size: 15px;
+        color: #e0e6ed;
+        opacity: 0.95;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 16px 40px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 16px;
+        margin: 0 0 16px 0;
+      }
+      .day-header {
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--line);
+      }
+      .day-header h2 {
+        font-size: 24px;
+        margin: 0 0 6px 0;
+        color: var(--ink);
+      }
+      .day-header .subtitle {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .location-block {
+        margin: 16px 0;
+        padding: 14px;
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 12px;
+        border-left: 3px solid var(--pill);
+      }
+      .location-block h4 {
+        margin: 0 0 6px 0;
+        font-size: 17px;
+        color: var(--ink);
+      }
+      .location-block .time {
+        display: inline-block;
+        font-size: 13px;
+        color: var(--pilltext);
+        background: var(--pill);
+        padding: 4px 10px;
+        border-radius: 6px;
+        margin: 0 0 10px 0;
+        font-weight: 500;
+      }
+      .location-block p {
+        margin: 8px 0;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .location-block .tip {
+        margin-top: 8px;
+        padding: 8px 10px;
+        background: var(--warning);
+        color: var(--warningtext);
+        border-radius: 8px;
+        font-size: 13px;
+      }
+      .location-block .tip.green {
+        background: var(--green);
+        color: var(--greentext);
+      }
+      .location-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 10px 0;
+      }
+      .img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 10px 0;
+      }
+      .img-grid img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: var(--pill);
+        color: var(--pilltext);
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 6px 6px 0;
+      }
+      .pill.warning {
+        background: var(--warning);
+        color: var(--warningtext);
+      }
+      .overview {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px;
+        margin-bottom: 20px;
+      }
+      .overview h3 {
+        margin: 0 0 12px 0;
+        font-size: 18px;
+      }
+      .overview ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .overview li {
+        padding: 8px 0;
+        border-bottom: 1px solid var(--line);
+        font-size: 14px;
+      }
+      .overview li:last-child {
+        border-bottom: none;
+      }
+      .overview li strong {
+        color: var(--pilltext);
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .small {
+        font-size: 13px;
+      }
+      .footer {
+        text-align: center;
+        color: var(--muted);
+        padding: 30px 0;
+        font-size: 12px;
+        border-top: 1px solid var(--line);
+        margin-top: 40px;
+      }
+      @media (min-width: 768px) {
+        .hero img {
+          height: 60vh;
+        }
+        .hero h1 {
+          font-size: 42px;
+        }
+        .location-img {
+          height: 280px;
+        }
+        .img-grid img {
+          height: 220px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0f/N_Seoul_Tower_Panorama_001.jpg"
+        alt="Seoul skyline with Namsan Tower at dusk"
+      />
+      <div class="hero-content">
+        <h1>Seoul 8D7N — April 2026</h1>
+        <p>Views, K-culture, food & efficiency. Clustered by neighborhood.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <!-- Overview -->
+      <div class="overview">
+        <span class="pill">Trip Overview</span>
+        <h3>What to Know</h3>
+        <ul>
+          <li>
+            <strong>Base:</strong> Stay in Myeongdong or Jongno for central
+            subway access
+          </li>
+          <li>
+            <strong>Transport:</strong> Buy T-money card at airport for all
+            subway/bus rides
+          </li>
+          <li>
+            <strong>Best time:</strong> Early April for cherry blossoms along
+            Han River & Yeouido
+          </li>
+          <li>
+            <strong>Pre-book:</strong> Changdeokgung Secret Garden, DMZ tour,
+            Seoul Sky tickets
+          </li>
+        </ul>
+      </div>
+
+      <!-- Day 1 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 1 — Old Seoul & Night Skyline</h2>
+          <p class="subtitle">Areas: Jongno, Bukchon, Insadong, Namsan</p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">Morning / Arrival</span>
+          <h4>Arrive at Incheon (ICN)</h4>
+          <p>
+            Take AREX Express Train (43 min to Seoul Station) or Airport
+            Limousine Bus to Myeongdong/Jongno hotel. Check in, drop bags, rest.
+          </p>
+          <div class="tip green">
+            Buy T-money card at airport convenience store (CU/GS25) for all
+            transport.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">12:30 PM</span>
+          <h4>Lunch: Tosokchon Samgyetang</h4>
+          <img
+            class="location-img"
+            src="https://static.wixstatic.com/media/0505b9_6d2465fce69b4001ab75626ed7ffb1c1~mv2.jpg/v1/fill/w_1344,h_809,al_c,q_85,enc_avif,quality_auto/Tosokchon%20Samgyetang%20-%20Tosokchon%20Ginseng.jpg"
+            alt="Korean samgyetang ginseng chicken soup"
+          />
+          <p>
+            Famous ginseng chicken soup near Gyeongbokgung Palace. Iconic Seoul
+            comfort food — whole chicken stuffed with rice, ginseng, jujube.
+          </p>
+          <div class="tip">
+            Arrive before 1 PM to avoid long lines. Cash preferred.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">2:00 PM</span>
+          <h4>Gyeongbokgung Palace</h4>
+          <img
+            class="location-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg/1920px-%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg"
+            alt="Gyeongbokgung Palace with mountain backdrop"
+          />
+          <p>
+            Korea's largest royal palace (1395). Main gate, throne hall, and
+            photogenic pavilions over lotus pond. Allow 1.5 hours.
+          </p>
+          <div class="tip">
+            Changing of the Guard ceremony at 2 PM (10 min). Free entry in
+            hanbok rental.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3:45 PM</span>
+          <h4>Bukchon Hanok Village</h4>
+          <img
+            class="location-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Traditional_hanok_houses_at_golden_hour_in_Bukchon_Hanok_Village_in_Seoul.jpg"
+            alt="Traditional hanok houses in Bukchon"
+          />
+          <p>
+            Traditional Korean hanok alleyways between palaces. Quiet
+            residential streets with classic architecture and rooftop views.
+          </p>
+          <div class="tip">
+            Walk quietly — locals live here. Best photo spots: Bukchon 8-View
+            viewpoints.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">5:00 PM</span>
+          <h4>Insadong Street</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&q=80"
+            alt="Insadong traditional street shops"
+          />
+          <p>
+            Traditional crafts, tea houses, antique shops. Ssamziegil shopping
+            mall has unique Korean souvenirs and rooftop views.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">5:45 PM</span>
+          <h4>Jogyesa Temple</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1597359547799-a8d296506852?w=800&q=80"
+            alt="Korean Buddhist temple with colorful lanterns"
+          />
+          <p>
+            Central Seoul's main Buddhist temple. Thousands of colorful lanterns
+            hang year-round. Peaceful 15-minute stop.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:00 PM</span>
+          <h4>Dinner: Yongsusan (Insadong)</h4>
+          <img
+            class="location-img"
+            src="https://imgur.com/hanjeongsik-full-course-korean-meal-with-whole-array-of-savory-side-dishes-Xmht2dk"
+            alt="Korean hanjeongsik royal court cuisine"
+          />
+          <p>
+            Refined hanjeongsik (Korean royal court cuisine) — multi-course meal
+            with small banchan side dishes in traditional setting.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">8:30 PM</span>
+          <h4>N Seoul Tower (Namsan)</h4>
+          <img
+            class="location-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Namsan_Park_and_Seoul_Tower_%284615642044%29.jpg/1920px-Namsan_Park_and_Seoul_Tower_%284615642044%29.jpg"
+            alt="N Seoul Tower night view"
+          />
+          <p>
+            Taxi to cable car base (10 min) → ride up to tower. 360° night
+            skyline of Seoul from observation deck. Love Lock Terrace.
+          </p>
+          <div class="tip">
+            Buy tower tickets online to skip lines. Last entry 11 PM.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">10:30 PM</span>
+          <h4>Myeongdong Night Walk</h4>
+          <p>
+            Quick stroll through famous shopping street. Street food vendors
+            (tteokbokki, hotteok). Return to hotel.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 2 — Royal Gardens & Lantern Stream</h2>
+          <p class="subtitle">Areas: Jongno, Ikseondong, Cheonggyecheon</p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">9:30 AM</span>
+          <h4>Changdeokgung Palace + Secret Garden</h4>
+          <img
+            class="location-img"
+            src="https://media.triple.guide/triple-cms/c_limit,f_auto,h_2048,w_2048/3e5de318-c57d-4d6f-8641-60495a189b67.jpeg"
+            alt="Changdeokgung Secret Garden pavilion and pond"
+          />
+          <p>
+            UNESCO World Heritage palace with stunning Secret Garden (Huwon).
+            Guided tour only — pristine nature, pavilions, lotus ponds. 2 hours.
+          </p>
+          <div class="tip warning">
+            Pre-book timed tickets online — limited daily slots. English tours
+            at 10:30 AM, 2:30 PM.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">12:00 PM</span>
+          <h4>Lunch: Jinjinbara (Jongno)</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80"
+            alt="Korean traditional course meal with banchan"
+          />
+          <p>
+            Elegant traditional Korean course meal (jeongsik) with seasonal
+            banchan, grilled fish, stews, and rice in beautiful setting.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">1:30 PM</span>
+          <h4>Ikseondong Hanok Street</h4>
+          <img
+            class="location-img"
+            src="https://tong.visitkorea.or.kr/cms/resource/53/3497253_image2_1.jpg"
+            alt="Ikseondong narrow hanok alley with cafes"
+          />
+          <p>
+            Hidden gem — maze-like hanok alleys converted to boutique cafes,
+            bakeries, and shops. More intimate than Bukchon. Great for photos.
+          </p>
+          <div class="tip green">
+            Stop at Ikseondong Bokdeokbang for artisan Korean tea in renovated
+            hanok.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3:30 PM</span>
+          <h4>Return to Hotel / Rest</h4>
+          <p>
+            Short subway ride back to hotel. Rest, recharge for evening
+            activities.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">6:00 PM</span>
+          <h4>Cheonggyecheon Stream</h4>
+          <img
+            class="location-img"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e6/33/ce/cheonggyecheon.jpg?w=900&h=500&s=1"
+            alt="Cheonggyecheon Stream at night with bridges lit up"
+          />
+          <p>
+            8km urban stream through downtown Seoul. Walk from City Hall to
+            Dongdaemun (3 km, ~40 min). Illuminated bridges and art
+            installations at night.
+          </p>
+          <div class="tip">
+            Start at Cheonggye Plaza entrance near City Hall Station (Line 1/2).
+            Walk east toward Dongdaemun.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:30 PM</span>
+          <h4>Dinner: Myeongdong Kyoja</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80"
+            alt="Korean kalguksu noodles and mandu dumplings"
+          />
+          <p>
+            Legendary hand-cut kalguksu noodles and mandu (dumplings) since
+            1966. Simple menu, fast service, affordable. Often a line but moves
+            quickly.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 3 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 3 — Modern Seoul & Skyline Luxury</h2>
+          <p class="subtitle">
+            Areas: COEX, Bongeunsa, Seokchon Lake, Lotte World Tower
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">10:00 AM</span>
+          <h4>COEX Mall & Starfield Library</h4>
+          <img
+            class="location-img"
+            src="https://english.seoul.go.kr/wp-content/uploads/2022/03/starfield-library-COEX01.jpg"
+            alt="Starfield Library at COEX with towering bookshelves"
+          />
+          <p>
+            Asia's largest underground mall. Starfield Library — stunning
+            13-meter-high open library with 50,000 books. Free entry. Major
+            Instagram spot.
+          </p>
+          <div class="tip green">
+            Library is in center of COEX Mall. Station: Samseong (Line 2). Open
+            10:30 AM–10 PM.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">11:15 AM</span>
+          <h4>Bongeunsa Temple</h4>
+          <img
+            class="location-img"
+            src="https://cdn.sanity.io/images/nxpteyfv/goguides/d017123e6f1802fec56e3037128ad401b0b79338-1600x1067.jpg"
+            alt="Bongeunsa Temple with Gangnam skyscrapers behind"
+          />
+          <p>
+            1,200-year-old Buddhist temple in the heart of Gangnam. Stunning
+            contrast — ancient temple with modern skyscrapers behind. Giant
+            Maitreya Buddha statue.
+          </p>
+          <div class="tip">
+            Walk 5 min from COEX across the street. Free entry. Temple stay
+            programs available.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">12:30 PM</span>
+          <h4>Lunch: Maple Tree House (Gangnam BBQ)</h4>
+          <img
+            class="location-img"
+            src="https://www.diningaddiction.com/wp-content/uploads/2013/06/Maple-Tree-House008.jpg"
+            alt="Korean BBQ grilling premium beef"
+          />
+          <p>
+            High-quality Korean BBQ near COEX. Premium cuts of beef and pork
+            grilled at your table with fresh banchan. Modern, clean interior.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">2:30 PM</span>
+          <h4>Seokchon Lake Park</h4>
+          <img
+            class="location-img"
+            src="https://english.seoul.go.kr/wp-content/uploads/2023/05/seokchon-lake-03.jpg"
+            alt="Seokchon Lake with cherry blossoms and Lotte Tower"
+          />
+          <img
+            class="location-img"
+            src="https://newsimg.koreatimes.co.kr/2025/04/17/46a14126-d438-4c6f-b124-94585f43c4ce.jpg"
+            alt="Seokchon Lake with cherry blossoms and Lotte Tower"
+          />
+          <p>
+            Circular walking path around peaceful lake. Cherry blossom hotspot
+            in early April. Lotte World Tower views. Paddleboat rentals
+            available.
+          </p>
+          <div class="tip">
+            Take Line 2 two stops from Samseong to Jamsil Station. 5-min walk to
+            lake.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">4:30 PM</span>
+          <h4>Lotte World Tower — Seoul Sky Observatory</h4>
+          <img
+            class="location-img"
+            src="https://www.lwt.co.kr/assets/seoulsky_kv.CRCgM10D.webp"
+            alt="Lotte World Tower and Seoul Sky observatory view"
+          />
+          <p>
+            5th tallest building in the world. Seoul Sky observatory on floors
+            117–123 (500+ meters high). 360° sunset/night views. Sky bridge with
+            glass floor.
+          </p>
+          <div class="tip warning">
+            Pre-book tickets online for specific time slot. Arrive 30 min before
+            sunset (~6:30 PM in April).
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:30 PM</span>
+          <h4>Dinner: Tower or Nearby</h4>
+          <p>
+            Option 1: Dine inside Lotte Tower (multiple restaurants floors
+            1–80). Option 2: Return to Jamsil area for seafood or Korean BBQ.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 4 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 4 — K-Pop & Celebrity Seoul</h2>
+          <p class="subtitle">
+            Areas: Cheongdam, Apgujeong, Garosugil (Gangnam)
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">10:00 AM</span>
+          <h4>K-Star Road (Apgujeong → Cheongdam)</h4>
+          <img
+            class="location-img"
+            src="https://static.wixstatic.com/media/0505b9_b743df5736ab431baa668079e7b4c53d~mv2.jpg/v1/fill/w_968,h_726,al_c,q_85,enc_avif,quality_auto/K-Star%20Road%20-%20Gangnamdol%20%26%20Galleria%20Depa.jpg"
+            alt="K-pop idol bear statues on K-Star Road"
+          />
+          <p>
+            1.5km pedestrian-friendly street with K-pop idol bear statues
+            (BIGBANG, BTS, EXO). Pass by major entertainment agencies — SM, JYP,
+            HYBE offices nearby.
+          </p>
+          <div class="tip green">
+            Start at Apgujeong Rodeo Station (Line 7), walk north toward
+            Cheongdam. Cube Ent, SM Ent, Pledis visible.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">11:30 AM</span>
+          <h4>Gentle Monster Haus Dosan & Flagship Stores</h4>
+          <div class="img-grid">
+            <img
+              src="https://images.unsplash.com/photo-1595410473037-645b3b2e6f6d?w=800&q=80"
+              alt="Gentle Monster futuristic eyewear store interior"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1580870069867-74c06f8f09f2?w=800&q=80"
+              alt="Modern Seoul boutique district"
+            />
+          </div>
+          <p>
+            Futuristic 5-floor Gentle Monster flagship —
+            art-gallery-meets-eyewear-store. Nearby: Aesop, Amore Seongsu
+            (K-beauty mega flagship), Dior, Chanel.
+          </p>
+          <div class="tip">
+            Gentle Monster free to browse. Amore flagship has 6 floors of Korean
+            beauty brands + cafe.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">1:00 PM</span>
+          <h4>Lunch: Yukjeon Hoekwan (Gangnam)</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1608656634754-a61b3c85be47?w=800&q=80"
+            alt="Korean beef jeon pancake and BBQ"
+          />
+          <p>
+            Famous for galbi (Korean short rib BBQ) and beef jeon (savory
+            pancake). In business since 1962. Upscale, traditional interior.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3:00 PM</span>
+          <h4>Garosugil Street</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1568001809754-8f36d9031477?w=800&q=80"
+            alt="Tree-lined Garosugil shopping street with boutiques"
+          />
+          <p>
+            Tree-lined avenue with indie fashion boutiques, cafes, and design
+            shops. Less crowded than Myeongdong — more local, upscale vibe.
+            Great people-watching.
+          </p>
+          <div class="tip">
+            Walk from Cheongdam 15 min south to Sinsa Station (Line 3).
+            Garosugil runs parallel to main road.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:00 PM</span>
+          <h4>Dinner: Mingles or Gaon (Michelin-starred)</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1616486595036-67aaca7f36fd?w=800&q=80"
+            alt="Fine dining modern Korean tasting menu"
+          />
+          <p>
+            Elevated modern Korean cuisine. Mingles (2 Michelin stars) blends
+            Korean-Western techniques. Gaon (2 stars) is traditional royal court
+            style.
+          </p>
+          <div class="tip warning">
+            Reservations required weeks in advance. Dress smart casual. Tasting
+            menus 150,000–250,000 KRW.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">9:00 PM (Optional)</span>
+          <h4>Apgujeong Rodeo Night Walk</h4>
+          <p>
+            Luxury shopping district lit up at night. Window shop designer
+            brands. Alternatively, attend a K-pop concert or show if available
+            (check schedules).
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 5 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 5 — Hongdae Street Life & Indie Culture</h2>
+          <p class="subtitle">Areas: Hapjeong, Hongdae, Yeonnam-dong</p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">10:30 AM</span>
+          <h4>YG Entertainment HQ (Hapjeong)</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1601524568506-2e6f6b2b0c6b?w=800&q=80"
+            alt="YG Entertainment building exterior"
+          />
+          <p>
+            Photo stop outside YG building (BLACKPINK, BIGBANG, TREASURE). Can't
+            enter, but popular fan pilgrimage spot. 5 min from Hapjeong Station
+            Exit 8.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">11:00 AM</span>
+          <h4>Hongdae Area — Street Art & Markets</h4>
+          <img
+            class="location-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hongdae_Party_District_at_Night%2C_Seoul.jpg"
+            alt="Hongdae street with colorful murals and cafes"
+          />
+          <p>
+            Youth culture epicenter — indie music, street art, busking,
+            underground shopping. Weekend Free Market (Sat 1–6 PM) for handmade
+            crafts.
+          </p>
+          <div class="tip green">
+            Main pedestrian zone: Hongik University Gate → AK&Hongdae Mall.
+            Vintage shops in alleys.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">1:00 PM</span>
+          <h4>Lunch: Palsaek Samgyeopsal</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1606680534061-f5d25c4c97ca?w=800&q=80"
+            alt="8-color pork belly samgyeopsal BBQ platter"
+          />
+          <p>
+            8-flavor pork belly BBQ (original, wine, herb, curry, ginseng,
+            etc.). Fun, Instagram-friendly presentation. Multiple locations in
+            Hongdae.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3:00 PM</span>
+          <h4>Yeonnam-dong Gyeongui Line Forest Park</h4>
+          <img
+            class="location-img"
+            src="https://english.seoul.go.kr/wp-content/uploads/2022/09/Gyeongui-Line-Forest-Park-03.jpg"
+            alt="Linear park with old railway tracks and cafes"
+          />
+          <p>
+            Converted railway line into linear park. Trendy cafes, brunch spots,
+            boutiques along tree-lined paths. Quieter, more local than Hongdae
+            main drag.
+          </p>
+          <div class="tip">
+            Walk 10 min west from Hongdae Station or take Line 2 one stop to
+            Hongdae/Yeonnam. Park runs 6km north-south.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:00 PM</span>
+          <h4>Dinner: Myth Jokbal</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1591814602850-21ac2563e611?w=800&q=80"
+            alt="Korean jokbal braised pork trotter with wraps"
+          />
+          <p>
+            Famous braised pork trotter (jokbal) — tender, savory, wrapped in
+            lettuce with garlic and sauces. Unique Seoul specialty. Rich
+            collagen dish.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">9:00 PM</span>
+          <h4>Hongdae Night Scene</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1536859975388-c314332e4578?w=800&q=80"
+            alt="Hongdae street performers and night crowd"
+          />
+          <p>
+            Stay for live street performances (dance crews, bands). Explore
+            bars, clubs, karaoke (noraebang). Vibrant nightlife until 3 AM+.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 6 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 6 — DMZ, Seafood Market & River Cruise</h2>
+          <p class="subtitle">
+            Areas: Paju DMZ → Noryangjin → Yeouido → Han River
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:00 AM – 2:00 PM</span>
+          <h4>DMZ Half-Day Tour</h4>
+          <img
+            class="location-img"
+            src="https://i0.wp.com/thegirlwithabigbag.com/wp-content/uploads/2025/06/img_9255.jpg?fit=2000%2C1500&ssl=1"
+            alt="DMZ military checkpoint and border view"
+          />
+          <p>
+            Morning pickup from hotel or City Hall area. Visit Imjingak Park →
+            3rd Infiltration Tunnel → Dora Observatory → Dorasan Station.
+            Returns ~2 PM.
+          </p>
+          <div class="tip warning">
+            Bring passport (required for security checks). Dress code: no ripped
+            jeans, sleeveless tops, or flip-flops. Book tour 1–2 weeks ahead.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">2:30 PM</span>
+          <h4>Late Lunch: Noryangjin Fish Market</h4>
+          <img
+            class="location-img"
+            src="https://thecalmchronicle.com/wp-content/uploads/2013/11/nrj3-scaled.jpg"
+            alt="Noryangjin fish market with live seafood tanks"
+          />
+          <p>
+            Korea's largest seafood auction market. Choose live crab, fish, or
+            shellfish from vendors. Take upstairs to restaurants who cook it for
+            you (small fee). Authentic local experience.
+          </p>
+          <div class="tip green">
+            Take Line 1 to Noryangjin Station, 5 min walk. Bargain respectfully.
+            Bring cash. Try raw fish (hoe) or spicy stew (maeuntang).
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">5:00 PM</span>
+          <h4>Yeouido Han River Park</h4>
+          <img
+            class="location-img"
+            src="https://english.seoul.go.kr/wp-content/uploads/2016/05/iseoulu_07.jpg"
+            alt="Han River park with cherry blossoms and cyclists"
+          />
+          <p>
+            Seoul's riverside park with cherry blossom paths (peak early April).
+            Rent bikes, picnic areas, convenience stores. Relax before cruise.
+          </p>
+          <div class="tip">
+            Subway: Yeouido Station (Line 5) Exit 3. Walk 10 min to river.
+            Cherry blossom peak: April 1–10.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:00 PM</span>
+          <h4>E-Land Han River Cruise</h4>
+          <img
+            class="location-img"
+            src="https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_13367/20170725075147_KwsPH/jpeg"
+            alt="Han River cruise boat at night with Seoul skyline"
+          />
+          <p>
+            Sunset or night cruise departing from Yeouido Pier. 1-hour scenic
+            ride past Banpo Bridge Rainbow Fountain, 63 Building, Lotte Tower.
+            Live music onboard.
+          </p>
+          <div class="tip warning">
+            Book tickets online or at pier booth. Sunset departure ~6:30 PM
+            (April). Bring light jacket — breezy on deck.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">8:30 PM</span>
+          <h4>Dinner: 63 Building Restaurants (optional)</h4>
+          <p>
+            Buffet or fine dining on upper floors of 63 Building (gold glass
+            skyscraper). Floor-to-ceiling windows overlooking Han River and city
+            lights.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 7 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 7 — Hidden Views & Final Shopping</h2>
+          <p class="subtitle">Areas: Eungbongsan → Seoul Forest → Myeongdong</p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">9:00 AM</span>
+          <h4>Eungbongsan Mountain Sunrise Viewpoint</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1597301532196-0cc73f4e6e7b?w=800&q=80"
+            alt="Seoul skyline view from Eungbongsan hill at dawn"
+          />
+          <p>
+            Easy 10-minute hike up small mountain for 360° Seoul skyline view
+            over Han River. Less touristy than Namsan. Local favorite.
+          </p>
+          <div class="tip green">
+            Subway: Eungbong Station (Line 2) Exit 4. Follow trail signs uphill.
+            Octagonal pavilion at peak. Bring coffee from nearby cafe.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">10:30 AM</span>
+          <h4>Seoul Forest</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1577184043128-a6665caa5349?w=800&q=80"
+            alt="Seoul Forest park with walking paths and deer"
+          />
+          <p>
+            Large urban park with deer enclosure, butterfly conservatory, picnic
+            areas, and Han River views. Modern, well-maintained. Popular with
+            families.
+          </p>
+          <div class="tip">
+            Subway: Seoul Forest Station (Line 2 or Bundang Line). 2 km from
+            Eungbongsan — 20 min walk or quick subway. Park open 24/7, free.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">1:00 PM</span>
+          <h4>Lunch: Seongsu Butchers</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=800&q=80"
+            alt="Modern Korean BBQ restaurant with premium cuts"
+          />
+          <p>
+            Trendy Korean BBQ in hip Seongsu-dong (Seoul's Brooklyn). Modern
+            industrial interior, premium meat cuts, craft cocktails.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3:00 PM</span>
+          <h4>Final Shopping: Myeongdong</h4>
+          <img
+            class="location-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Myeongdong_night_market_seoul_1.jpg"
+            alt="Myeongdong shopping street packed with stores"
+          />
+          <p>
+            Seoul's shopping mecca. K-beauty flagships (Innisfree, Etude House,
+            The Face Shop, Olive Young mega-store). Cosmetics, fashion,
+            souvenirs.
+          </p>
+          <div class="tip">
+            Tax refund available — shop at stores with "Tax Free" signs. Bring
+            passport. Subway: Myeongdong Station (Line 4) Exit 6.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <span class="time">5:00 PM</span>
+          <h4>Lotte Department Store (Main Branch)</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
+            alt="Luxury department store interior"
+          />
+          <p>
+            12-floor luxury department store in Myeongdong. Designer brands,
+            food hall basement (gourmet Korean snacks), rooftop garden. One-stop
+            gift shopping.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">7:30 PM</span>
+          <h4>Dinner: Jihwaja (Insadong) or Baekjeong BBQ</h4>
+          <div class="img-grid">
+            <img
+              src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&q=80"
+              alt="Traditional Korean temple cuisine at Jihwaja"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1602030638412-bb8dcc0bc8b0?w=800&q=80"
+              alt="Korean BBQ grilling at table"
+            />
+          </div>
+          <p>
+            <b>Jihwaja:</b> Upscale Buddhist temple cuisine in traditional
+            hanok. Vegetarian, refined. <b>Baekjeong:</b> Premium Korean BBQ
+            chain with quality meats.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">9:00 PM</span>
+          <h4>Final Cheonggyecheon Night Walk</h4>
+          <p>
+            One last stroll along the illuminated stream. Reflect on trip.
+            Return to hotel and pack for departure.
+          </p>
+        </div>
+      </div>
+
+      <!-- Day 8 -->
+      <div class="card">
+        <div class="day-header">
+          <h2>Day 8 — Departure</h2>
+          <p class="subtitle">Airport transfer & departure</p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">Morning</span>
+          <h4>Hotel Breakfast & Check-out</h4>
+          <p>
+            Final Korean breakfast near hotel. Check out by 11 AM. Store luggage
+            at hotel if flight is later.
+          </p>
+        </div>
+
+        <div class="location-block">
+          <span class="time">3 hours before flight</span>
+          <h4>Airport Transfer</h4>
+          <img
+            class="location-img"
+            src="https://images.unsplash.com/photo-1583474924372-e4dc7b7b8e08?w=800&q=80"
+            alt="Incheon Airport modern terminal interior"
+          />
+          <p>
+            Take AREX Express (43 min) or Airport Bus from Myeongdong/Jongno to
+            Incheon Airport. Allow 3 hours door-to-gate for international
+            departure.
+          </p>
+          <div class="tip warning">
+            Use remaining T-money card balance at airport convenience store.
+            Return card at customer service for 500 KRW deposit refund.
+          </div>
+        </div>
+
+        <div class="location-block">
+          <h4>Last-Minute Airport Shopping</h4>
+          <p>
+            Duty-free cosmetics, Korean snacks (honey butter chips, Pepero,
+            dried seaweed), ginseng products. Check weight limits for luggage.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="card muted small">
+        <p>
+          <strong>Photo Credits:</strong> Images from Wikimedia Commons and
+          freely licensed sources. All photos are free to use. For personal trip
+          photos, replace URLs in the HTML.
+        </p>
+      </div>
+
+      <div class="footer">
+        <strong>Sharing:</strong> Drag this folder to
+        <b>app.netlify.com/drop</b> for instant web hosting.<br />
+        <strong>Offline:</strong> Open in browser → Print → Save as PDF for
+        offline reference.<br />
+        Updated Oct 15, 2025 — Have an amazing trip!
+      </div>
+    </div>
+  </body>
+</html>
